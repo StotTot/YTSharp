@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YTSharp"
         mc:Ignorable="d"
-        Title="YouTube Downloader" Height="200" Width="450">
+        Title="YouTube Downloader" Height="300" Width="496">
     <Grid>
         <TextBox x:Name="UrlBox" HorizontalAlignment="Left" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Height="32"/>
         <Label Content="Url:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="DownloadButton" Content="Download" HorizontalAlignment="Left" Margin="359,41,0,0" VerticalAlignment="Top" Width="67" Click="DownloadButton_Click"/>
-        <ProgressBar x:Name="ProgBar" HorizontalAlignment="Left" Height="14" Margin="10,78,0,0" VerticalAlignment="Top" Width="302"/>
-        <ComboBox HorizontalAlignment="Left" Margin="359,72,0,0" VerticalAlignment="Top" Width="67" Height="20">
-        </ComboBox>
-        <Button x:Name="DependButton" Content="Dependencies" HorizontalAlignment="Left" Margin="349,8,0,0" VerticalAlignment="Top" Width="87" Height="20" Click="DependButton_Click"/>
+        <Button x:Name="DownloadButton" Content="Download Video" HorizontalAlignment="Left" Margin="161,92,0,0" VerticalAlignment="Top" Width="151" Click="DownloadButton_Click"/>
+        <ProgressBar x:Name="ProgBar" HorizontalAlignment="Left" Height="32" Margin="10,142,0,0" VerticalAlignment="Top" Width="302"/>
+        <Button x:Name="DependButton" Content="Dependencies" HorizontalAlignment="Left" Margin="381,47,0,0" VerticalAlignment="Top" Width="87" Height="20" Click="DependButton_Click"/>
+        <TextBlock x:Name="TextProg" HorizontalAlignment="Left" Margin="10,194,0,0" TextWrapping="Wrap" Text="speed:  | ETA:" VerticalAlignment="Top" Height="30" Width="283"/>
+        <Button x:Name="DownloadAudioButton" Content="Download Audio Only" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="151" Click="DownloadAudioButton_Click"/>
     </Grid>
 </Window>
